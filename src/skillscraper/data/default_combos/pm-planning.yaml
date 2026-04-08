@@ -1,0 +1,38 @@
+name: PM & Planning
+description: Desarrollo de sistemas complejos con automatizaciones
+version: 1.0.0
+author: Daniel
+created: 2026-04-07
+
+sub_combos:
+  core:
+    description: Núcleo always-on
+    always_active: true
+    skills:
+      - brainstorming
+      - ask-questions-if-underspecified
+      - concise-planning
+      - goal-analyzer
+      - executing-plans
+      - context-management-context-save
+
+  architecture:
+    description: Fase de diseño arquitectónico
+    always_active: false
+    skills:
+      - architect-review
+      - architecture-decision-records
+      - architecture-patterns
+      - blueprint
+      - ddd-strategic-design
+
+  automation:
+    description: Fase de orquestación y automatización
+    always_active: false
+    skills:
+      - antigravity-skill-orchestrator
+      - antigravity-workflows
+      - multi-agent-task-orchestrator
+      - dispatching-parallel-agents
+      - closed-loop-delivery
+      - github-workflow-automation
