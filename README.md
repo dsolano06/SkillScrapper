@@ -21,6 +21,3 @@ skillscraper search       # Search skills
 skillscraper browse       # Open TUI
 ss --help                 # CLI help
 ```
-
-## Links
-- Repository: https://github.com/sickn33/antigravity-awesome-skills
