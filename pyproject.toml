@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skillscraper"
+version = "0.1.0"
+description = "Terminal-first skill manager for AI agent skills"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "textual",
+    "typer",
+    "rapidfuzz",
+    "httpx",
+    "ruamel.yaml",
+    "tomli-w",
+    "platformdirs",
+]
+
+[project.scripts]
+skillscraper = "skillscraper.cli:app"
+ss = "skillscraper.cli:app"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+]
